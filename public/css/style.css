@@ -1,0 +1,172 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.container{
+    flex: 1;
+}
+/* NAV BAR */
+
+.navbar{
+    height: 5.5rem;
+    padding: 20px;
+}
+.logo{
+    font-size: 2.5rem;
+    color: red;
+}
+.logo:hover{
+    font-size: 2.5rem;
+    color: red;
+}
+.navbar-nav{
+    font-size: 1.2rem;
+}
+.nav-link{
+    font-weight: 500;
+}
+.nav-btns{
+    border: 1px solid #F8F9FA;
+    border-radius: 15px;
+    transition: all 0.3s;
+    
+}
+.nav-btns:hover{
+    border: 1px solid #EDEFF2;
+    padding-right:2px;
+    padding-left: 2px; 
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+/* filter */
+#select{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.filter{
+    display: flex;
+    gap:2vw;
+}
+.filter>a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+}
+.filter>a:hover{
+    opacity: 1;
+}
+.filter>a>i{
+    font-size: 1.5rem;
+}
+.filter>a>h5{
+    font-size: 0.9rem;
+    margin: 0;
+}
+/* CARD */
+.card{
+    border: none;
+    margin-bottom: 3rem; 
+    transition: all 0.3s ease;  
+    margin: 10px;
+    
+}
+.hover_eff:hover{
+  opacity: 0.8;
+
+}
+.card img{
+    border-radius: 8px;
+    margin-bottom: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    object-fit: cover;
+    object-position: center;
+}
+.card-text{
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.card-body{
+    padding: 0;
+}
+.a{
+    text-decoration: none;
+}
+
+/* footer */
+footer{
+    padding: 30px;
+}
+.f-logo {
+    font-size: 1.5rem;
+}
+
+/* FROM */
+.form-label{
+    color: black;
+    font-weight: 500;
+}
+::-webkit-input-placeholder {
+    color: #6c757d8d; 
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+
+/* Button */
+.btn-color{
+    background-color: red;
+    color: white;
+}
+.btn-color:hover{
+    background-color: rgb(197, 6, 6);
+    color: white;
+}
+/* show */
+
+.show-text{
+    font-size: 0.99rem;
+    margin-bottom: 4px;
+}
+.owner{
+    font-style: italic;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+/* comment */
+.comment{
+    border: 2px solid #E3E3E4;
+    padding: 15px 20px;
+   
+}
+.comment-text{
+    font-size: 0.9rem;
+}
+.review-user{
+    font-style: italic;
+    font-weight: 600;
+}
+.review-rating{
+    scale: 0.7;    
+}
+.review-rating-st{
+    scale:0.9
+}
+
+/* MAP STYLE */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #map {
+      /* position: absolute; */
+      top: 0;
+      bottom: 0;
+      /* width: 100%;*/
+      height: 60vh;
+      border-radius: 15px;
+  }

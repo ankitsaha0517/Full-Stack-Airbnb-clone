@@ -21,7 +21,7 @@ router.route("/")
 
 
 // --CREATE LIST
-router.get("/new",isAuthenticated,listingController.RenderNewFrom); // -NEW LIST
+router.get("/new/list",isAuthenticated,listingController.RenderNewFrom); // -NEW LIST
 
 router.route("/:category/filter")
         .get(listingController.filterOpction)
